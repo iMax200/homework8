@@ -1,0 +1,262 @@
+@import url(reset.css);
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 36/24 */
+
+
+}
+
+.container {
+    width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin: 0 150px;
+
+}
+
+header {
+    border-bottom: 1px solid #D9D9D9;
+    height: 120px;
+    font-size: 0;
+    color: rgba(231, 233, 235, 1);
+
+    background-color: rgba(125, 160, 198, 1);
+}
+
+
+
+.section-blue {
+    color: rgba(231, 233, 235, 1);
+
+    background-color: rgba(125, 160, 198, 1);
+}
+
+.section-white {
+    color: rgba(33, 33, 33, 1);
+
+    background-color: rgba(244, 244, 244, 1);
+}
+
+.title {
+    font-family: "Philosopher", serif;
+}
+
+.box-image {
+    display: inline;
+    /* padding: 13.33px 3.75px 13.33px 3.83px;
+    margin-right: 40px;
+    height: 79px;
+    width: 80px;
+    display: inline-block; */
+}
+
+.image-vector {
+    margin-right: 114px;
+    margin-top: 13.3px;
+}
+
+.list-header {
+    width: 1440px;
+    height: 120px;
+    font-size: 24px;
+    padding: 20px 150px 20px 150px;
+}
+
+.list-navigation>* {
+    display: inline-block;
+    margin-right: 40px;
+
+}
+
+.list-navigation>*:last-child {
+    margin-right: 0;
+}
+
+.list-navigation {
+    display: inline-block;
+    margin-top: 22px;
+}
+
+
+
+.main-part-inter {
+    padding: 80px 150px 80px 150px;
+    font-size: 0;
+
+}
+
+.margin-24px {
+    margin-bottom: 24px;
+}
+
+.main-part-inter>* {
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    /* 50.4/42 */
+    margin-bottom: 40px;
+}
+
+
+.block-main {
+    margin-right: 34px;
+    font-size: 24px;
+    max-width: 507px;
+    display: inline-block;
+}
+
+.block-img-landscape {
+    max-width: 547px;
+    max-height: 500px;
+    display: inline-block;
+}
+
+.main-our-advantages {
+    padding: 80px 149px 80px 150px;
+}
+
+h2 {
+    margin: bottom 40px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    /* 50.4/42 */
+}
+
+
+.table-our-advantages {
+    border-collapse: collapse;
+    /* поєднує межі суміжних комірок */
+    width: 748px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.table-our-advantages .nome,
+.vertical {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.nome {
+    width: 34px;
+}
+
+
+.button {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration-line: underline;
+    max-height: 56px;
+    background-color: rgba(155, 196, 72, 1);
+    border: 1px solid rgba(92, 166, 57, 1);
+    padding: 10px 30px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.section-about-us {
+    background-color: rgba(125, 160, 198, 1)
+}
+
+.button:hover {
+    background-color: rgb(177, 177, 34);
+    color: rgb(53, 15, 114);
+    border: 3px solid rgb(166, 57, 57);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.block-about-us {
+    padding: 80px 150px;
+}
+
+.tabl-about-us {
+    border-collapse: collapse;
+    /* поєднує межі суміжних комірок */
+
+
+    width: 100%;
+}
+
+.tabl-about-us>th,
+td {
+    vertical-align: top;
+    border: 1px solid rgba(33, 33, 33, 1);
+    padding: 10px;
+    text-align: left;
+    color: rgba(231, 233, 235, 1)
+}
+
+.tabl-about-us>th,
+td:nth-child(5) {
+    background-color: aqua;
+
+}
+
+.title-white {
+    font-family: "Philosopher", serif;
+    font-size: 42px;
+    color: rgba(231, 233, 235, 1)
+}
+
+.title-white::after {
+    content: url(..//image/leaf.svg);
+    width: 33px;
+    height: 33px;
+    vertical-align: middle;
+}
+
+
+
+
+.section-white-footer {
+
+    color: rgba(125, 160, 198, 1);
+}
+
+li>.button-nav-main:hover {
+    text-decoration: underline;
+}
+
+.navigation-futter {
+    padding: 80px 150px;
+}
+
+.navigation-futter>* {
+    display: inline-block;
+}
+
+.list-footter>* {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 40px;
+}
+
+.list-footter>*:nth-child(1) {
+    margin-right: 83px;
+}
+
+.list-footter>*:nth-child(4) {
+    margin-right: 84px;
+}
+
+.list-footter>*:nth-child(5) {
+    margin-right: 0;
+}
+
+.eco-solution {
+    font-size: 20px;
+}
